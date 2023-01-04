@@ -66,7 +66,9 @@
     "no-unneeded-ternary": "off",
     "react/no-array-index-key": "off",
     "react/no-unstable-nested-components": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "default-param-last": "off",
+    "@typescript-eslint/default-param-last": "warn"
   },
   "settings": {
     "import/resolver": {

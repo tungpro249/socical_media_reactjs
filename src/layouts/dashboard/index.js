@@ -10,11 +10,8 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
 
-import reportsLineChartData from "layouts/dashboard/data/reportsLineChartData";
 
 function Dashboard() {
-  const { tasks } = reportsLineChartData;
-
   return (
     <DashboardLayout>
       <DashboardNavbar />
