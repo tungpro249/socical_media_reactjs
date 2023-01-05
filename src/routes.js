@@ -17,7 +17,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Sign In",
+    name: "Đăng nhập",
     key: "sign-in",
     icon: <Icon fontSize="small">login</Icon>,
     route: "/authentication/sign-in",
@@ -25,7 +25,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Sign Up",
+    name: "Đăng ký",
     key: "sign-up",
     icon: <Icon fontSize="small">assignment</Icon>,
     route: "/authentication/sign-up",

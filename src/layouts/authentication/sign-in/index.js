@@ -39,7 +39,7 @@ function Basic() {
           textAlign="center"
         >
           <MDTypography variant="h4" fontWeight="medium" color="white" mt={1}>
-            Sign in
+            Đăng nhập
           </MDTypography>
         </MDBox>
         <MDBox pt={4} pb={3} px={3}>
@@ -59,17 +59,17 @@ function Basic() {
                 onClick={handleSetRememberMe}
                 sx={{ cursor: "pointer", userSelect: "none", ml: -1 }}
               >
-                &nbsp;&nbsp;Remember me
+                &nbsp;&nbsp;Lưu thông tin
               </MDTypography>
             </MDBox>
             <MDBox mt={4} mb={1}>
               <MDButton variant="gradient" color="info" fullWidth>
-                sign in
+                Đăng nhập
               </MDButton>
             </MDBox>
             <MDBox mt={3} mb={1} textAlign="center">
               <MDTypography variant="button" color="text">
-                Don&apos;t have an account?{" "}
+                Bạn chưa có tài khoản?{" "}
                 <MDTypography
                   component={Link}
                   to="/authentication/sign-up"
@@ -78,7 +78,7 @@ function Basic() {
                   fontWeight="medium"
                   textGradient
                 >
-                  Sign up
+                  Đăng ký
                 </MDTypography>
               </MDTypography>
             </MDBox>
